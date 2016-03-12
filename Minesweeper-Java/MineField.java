@@ -122,7 +122,7 @@ class MineField{
 		default:return 'X';
 		}
 	}
-	//hiting the mines
+	//hiting the mines in game
 	public boolean getBoom(){
 		
 		return boom;
@@ -188,7 +188,7 @@ class MineField{
 	/**
 	 * @param row
 	 */
-	//Showloop method used in show
+	//Showloop method used in show 
 	private void showloop(int row) {
 		for(int col=0;col<colMax;col++){
 			System.out.print(" "+drawChar(row,col));
